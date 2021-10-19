@@ -1,0 +1,16 @@
+# Install Yarn if you haven't
+brew install yarn
+
+# Clone this repo
+git clone git@github.com:zapier/zapier-platform.git
+cd zapier-platform
+
+# Install dependencies
+yarn
+
+# Run tests for all packages
+yarn test
+
+# Run tests for an individual package
+cd packages/cli
+yarn test
